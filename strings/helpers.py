@@ -12,8 +12,8 @@ HELP_1 = """✅**<u>Admin Commands:</u>**
 **c** singkatan dari pemutaran channel.
 /pause or /cpause - Jeda musik yang sedang diputar.
 /resume or /cresume- Lanjutkan musik yang dijeda.
-/mute or /cmute- Membisukan musik yang diputar.
-/unmute or /cunmute- Membunyikan musik yang diputar.
+/mmute or /cmute- Membisukan musik yang diputar.
+/munmute or /cunmute- Membunyikan musik yang diputar.
 /skip or /cskip- Melewati musik yang sedang diputar.
 /stop or /cstop- Mematikan musik yang sedang diputar.
 /shuffle or /cshuffle- Mengacak antrian daftar putar.
@@ -62,13 +62,13 @@ ForcePlay Commands = playforce , vplayforce , cplayforce
 
 HELP_3 = """✅<u>**Bot Commands:**</u>
 
-/stats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
+/mstats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
-/sudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
+/msudolist - Periksa Pengguna Sudo dari Bot Musik Yukki
 
-/lyrics [Music Name] - Mencari Lirik untuk Musik tertentu di web.
+/mlyrics [Music Name] - Mencari Lirik untuk Musik tertentu di web.
 
-/song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
+/msong [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
 
 /player - Dapatkan Panel Bermain interaktif.
 
@@ -77,12 +77,12 @@ HELP_3 = """✅<u>**Bot Commands:**</u>
 /queue or /cqueue- Check Queue List of Music."""
 
 HELP_4 = """✅<u>**Extra  Commands:**</u>
-/start - Mulai Bot Musik.
-/help - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
-/ping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+/mstart - Mulai Bot Musik.
+/mhelp - Dapatkan Menu Helper Perintah dengan penjelasan rinci tentang perintah.
+/mping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
 
 ✅<u>**Group Settings:**</u>
-/settings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
+/msettings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
 
 🔗 **Options in Settings:**
 
@@ -109,11 +109,11 @@ HELP_4 = """✅<u>**Extra  Commands:**</u>
  3️⃣ Jenis Putar [Semua Orang atau Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
 HELP_5 = """🔰TAMBAH & HAPUS PENGGUNA SUDO :
-/addsudo [Nama pengguna atau Balas ke pengguna]
-/delsudo [Nama pengguna atau Balas ke pengguna]
+/maddsudo [Nama pengguna atau Balas ke pengguna]
+/mdelsudo [Nama pengguna atau Balas ke pengguna]
 
 🛃**<u>HEROKU:</u>**
-/usage - Dyno Usage.
+/musage - Dyno Usage.
 
 🌐**<u>CONFIG VARS:</u>**
 /get_var - Dapatkan config var dari Heroku atau .env.
