@@ -69,10 +69,10 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/Cari_pacar_jodohh",
+                text=_["S_B_9"], url=f"https://t.me/just_rey14",
             ),
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/loveisfuckedup",
+                text=_["S_B_9"], url=f"https://t.me/Cari_pacar_jodohh",
             ),
         ],
         [
