@@ -17,7 +17,7 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text=_["PL_B_3"],  switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/just_rey14",
+                text=_["S_B_9"], url=f"https://t.me/suka2bagas",
             ),
         ],
         [
@@ -69,10 +69,10 @@ def stream_markup(_, videoid):
         ],
         [
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/just_rey14",
+                text=_["S_B_9"], url=f"https://t.me/suka2bagas",
             ),
             InlineKeyboardButton(
-                text=_["S_B_9"], url=f"https://t.me/Cari_pacar_jodohh",
+                text=_["S_B_9"], url=f"https://t.me/lowkear",
             ),
         ],
         [
