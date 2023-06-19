@@ -44,7 +44,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "5703310502").split())
+    map(int, getenv("OWNER_ID", "2022955965").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -165,16 +165,19 @@ autoclean = []
 
 
 # Images
-START_IMG_URL = getenv("START_IMG_URL", None)
+START_IMG_URL = getenv(
+    "START_IMG_URL",
+    " assets/IMG_20230609_172859_113.jpg",
+)
 
 PING_IMG_URL = getenv(
     "PING_IMG_URL",
-    "assets/Ping.jpeg",
+    "assets/IMG_20230609_172859_113.jpg",
 )
 
 PLAYLIST_IMG_URL = getenv(
     "PLAYLIST_IMG_URL",
-    "assets/Playlist.jpeg",
+    "assets/IMG_20230609_172859_113.jpg",
 )
 
 GLOBAL_IMG_URL = getenv(
@@ -184,7 +187,7 @@ GLOBAL_IMG_URL = getenv(
 
 STATS_IMG_URL = getenv(
     "STATS_IMG_URL",
-    "assets/Stats.jpeg",
+    "assets/IMG_20230609_172859_113.jpg",
 )
 
 TELEGRAM_AUDIO_URL = getenv(
@@ -271,7 +274,7 @@ if GITHUB_REPO:
 
 
 if PING_IMG_URL:
-    if PING_IMG_URL != "assets/Ping.jpeg":
+    if PING_IMG_URL != "assets/IMG_20230609_172859_113.jpg":
         if not re.match("(?:http|https)://", PING_IMG_URL):
             print(
                 "[ERROR] - Your PING_IMG_URL urlnya salah.  Harap pastikan bahwa ini dimulai dengan https:://"
@@ -279,7 +282,7 @@ if PING_IMG_URL:
             sys.exit()
 
 if PLAYLIST_IMG_URL:
-    if PLAYLIST_IMG_URL != "assets/Playlist.jpeg":
+    if PLAYLIST_IMG_URL != "assets/IMG_20230609_172859_113.jpg":
         if not re.match("(?:http|https)://", PLAYLIST_IMG_URL):
             print(
                 "[ERROR] - Your PLAYLIST_IMG_URL urlnya salah.  Harap pastikan bahwa ini dimulai dengan https:://"
@@ -296,7 +299,7 @@ if GLOBAL_IMG_URL:
 
 
 if STATS_IMG_URL:
-    if STATS_IMG_URL != "assets/Stats.jpeg":
+    if STATS_IMG_URL != "assets/IMG_20230609_172859_113.jpg":
         if not re.match("(?:http|https)://", STATS_IMG_URL):
             print(
                 "[ERROR] - Your STATS_IMG_URL urlnya salah.  Harap pastikan bahwa ini dimulai dengan https:://"
