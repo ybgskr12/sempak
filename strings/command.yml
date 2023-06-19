@@ -34,7 +34,7 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
 SONG_COMMAND : ["song", "mvideo"]
-LYRICS_COMMAND : ["mlyrics"]
+LYRICS_COMMAND : ["lyrics"]
 
 
 # Admin Commands
@@ -55,9 +55,9 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : ["addsudo"]
+ADDSUDO_COMMAND : ["yakindeck"]
 DELSUDO_COMMAND : ["delsudo"]
-SUDOUSERS_COMMAND : ["sudolist"]
+SUDOUSERS_COMMAND : ["kiw"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["gcast"]
@@ -103,8 +103,8 @@ BLOCKED_COMMAND : ["blockedusers"]
 SPEEDTEST_COMMAND : ["speedtest"]
 
 #Voice chat commands
-ACTIVEVC_COMMAND : ["vcs"]
-ACTIVEVIDEO_COMMAND : ["vcv"]
+ACTIVEVC_COMMAND : ["os"]
+ACTIVEVIDEO_COMMAND : ["vcs"]
 
 #Gban Commands
 GBAN_COMMAND : ["gban"]
