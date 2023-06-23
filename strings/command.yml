@@ -55,7 +55,7 @@ RESTART_COMMAND : ["restart"]
 # Sudo Users Commaands
 
 # Sudo Command
-ADDSUDO_COMMAND : [" mangeak"]
+ADDSUDO_COMMAND : ["mangeak"]
 DELSUDO_COMMAND : ["delsudo"]
 SUDOUSERS_COMMAND : ["kiw"]
 
